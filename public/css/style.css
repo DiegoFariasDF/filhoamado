@@ -1,0 +1,17 @@
+.carousel-item {
+    height: 70vh;          
+/*    min-height: 500px;     */
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 60vh;
+    }
+}
